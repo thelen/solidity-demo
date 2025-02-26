@@ -6,3 +6,4 @@ contract HelloWorld {
     string public myString = "hello world";
     
 }
+
