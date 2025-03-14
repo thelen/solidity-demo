@@ -7,12 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,10 +20,10 @@
 			},
 			{
 				"inputs": [],
-				"name": "onwer",
+				"name": "sender",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -40,18 +35,27 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "_num",
 						"type": "uint256"
 					}
 				],
-				"name": "withdraw",
+				"name": "setVars",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -67,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"EtherWallet.sol": "EtherWallet"
+			"DelegateCall.sol": "TestDelegate"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -81,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"EtherWallet.sol": {
-			"keccak256": "0x2225a55a8d2f5ffef78c2ca588c9835cc1a081aad5100c4cbd826ffda268416b",
+		"DelegateCall.sol": {
+			"keccak256": "0xac46cc99c50ed99063cd537b3b535e287bd7edb49c8138db33573b726ac0360f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bc5dcd50104aef76545da0564b3e3f8039d9986f2bd9594880e39eaeba7561ed",
-				"dweb:/ipfs/QmUP596gaDDSJzXJu9JepdebEBWSKZTsHny7aFuRBKRJhT"
+				"bzz-raw://c2ea34558ba8b5c6dda770eab2de6ddfcb370ce154189f85ec671504ec3744f1",
+				"dweb:/ipfs/QmYqkAkD2JLbfEfRkUEd3Z34JtQTCdEPfwKZhd785AaSka"
 			]
 		}
 	},

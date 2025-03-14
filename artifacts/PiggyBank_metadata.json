@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PiggyBank.sol": "PiggyBank"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PiggyBank.sol": {
+			"keccak256": "0x9203b20439f2cd3ab047d82067cbcfe91faa68a2f38fb1cde062259e17116bbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92df99fabeaa88f46d622763f72a0a41a90af98d9cb1fb24a8c961f3c662bc3a",
+				"dweb:/ipfs/QmbWH4AifDr96v5d3V5JMJtYztH5GoJQFGAxk4M5QMwAyM"
+			]
+		}
+	},
+	"version": 1
+}

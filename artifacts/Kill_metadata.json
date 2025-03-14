@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Kill.sol": "Kill"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Kill.sol": {
+			"keccak256": "0xf64b239332f36696f3f19234c515294955cfa938fac39fc8349bd4705ee68cd3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eff3946213e3a2d0c705a967d3cf973ff63c798eb427ed4900f2860eefa42de1",
+				"dweb:/ipfs/QmXqQLTe9pESu9jMPnrgLXVaLvVpYr8hFa7jYGRpxQzWEG"
+			]
+		}
+	},
+	"version": 1
+}
